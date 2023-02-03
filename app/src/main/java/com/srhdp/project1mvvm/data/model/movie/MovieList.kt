@@ -1,8 +1,8 @@
-package com.srhdp.project1mvvm.data
+package com.srhdp.project1mvvm.data.model.movie
 
 
 import com.google.gson.annotations.SerializedName
-import com.srhdp.project1mvvm.data.Movie
+import com.srhdp.project1mvvm.data.model.movie.Movie
 
 data class MovieList(
     @SerializedName("results")

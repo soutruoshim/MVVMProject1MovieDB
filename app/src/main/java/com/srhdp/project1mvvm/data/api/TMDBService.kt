@@ -1,8 +1,8 @@
 package com.srhdp.project1mvvm.data.api
 
-import com.srhdp.project1mvvm.data.ArtistList
-import com.srhdp.project1mvvm.data.MovieList
-import com.srhdp.project1mvvm.data.TvShowList
+import com.srhdp.project1mvvm.data.model.artist.ArtistList
+import com.srhdp.project1mvvm.data.model.movie.MovieList
+import com.srhdp.project1mvvm.data.model.tvshow.TvShowList
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
