@@ -1,7 +1,7 @@
-package com.srhdp.project1mvvm.data.repository.aritist.datasourceimpl
+package com.srhdp.project1mvvm.data.repository.artist.datasourceImpl
 
 import com.srhdp.project1mvvm.data.model.artist.Artist
-import com.srhdp.project1mvvm.data.repository.aritist.datasource.ArtistCacheDataSource
+import com.srhdp.project1mvvm.data.repository.artist.datasource.ArtistCacheDataSource
 
 class ArtistCacheDataSourceImpl: ArtistCacheDataSource {
     private var artistList = ArrayList<Artist>()

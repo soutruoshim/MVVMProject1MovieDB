@@ -6,9 +6,9 @@ import com.srhdp.project1mvvm.data.model.tvshow.TvShow
 import com.srhdp.project1mvvm.data.model.tvshow.TvShowList
 import com.srhdp.project1mvvm.data.repository.tvshow.datasource.TvShowCacheDataSource
 import com.srhdp.project1mvvm.data.repository.tvshow.datasource.TvShowLocalDataSource
-import com.srhdp.project1mvvm.data.repository.tvshow.datasource.TvShowRemoteDataSource
+import com.srhdp.project1mvvm.data.repository.tvshow.datasource.TvShowRemoteDatasource
 
-class TvShowRepositoryImpl(private val tvShowRemoteDataSource: TvShowRemoteDataSource,
+class TvShowRepositoryImpl(private val tvShowRemoteDataSource: TvShowRemoteDatasource,
                            private val tvShowLocalDataSource: TvShowLocalDataSource,
                            private val tvShowCacheDataSource: TvShowCacheDataSource
 ):TvShowRepository {

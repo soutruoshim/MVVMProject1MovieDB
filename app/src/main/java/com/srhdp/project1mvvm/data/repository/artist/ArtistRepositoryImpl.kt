@@ -1,15 +1,15 @@
-package com.srhdp.project1mvvm.data.repository.aritist
+package com.srhdp.project1mvvm.data.repository.artist
 
 import android.util.Log
 import com.srhdp.project1mvvm.data.domain.repository.ArtistRepository
 import com.srhdp.project1mvvm.data.model.artist.Artist
 import com.srhdp.project1mvvm.data.model.artist.ArtistList
-import com.srhdp.project1mvvm.data.repository.aritist.datasource.ArtistCacheDataSource
-import com.srhdp.project1mvvm.data.repository.aritist.datasource.ArtistLocalDataSource
-import com.srhdp.project1mvvm.data.repository.aritist.datasource.ArtistRemoteDataSource
+import com.srhdp.project1mvvm.data.repository.artist.datasource.ArtistCacheDataSource
+import com.srhdp.project1mvvm.data.repository.artist.datasource.ArtistLocalDataSource
+import com.srhdp.project1mvvm.data.repository.artist.datasource.ArtistRemoteDatasource
 
 
-class ArtistRepositoryImpl(private val artistRemoteDataSource: ArtistRemoteDataSource,
+class ArtistRepositoryImpl(private val artistRemoteDataSource: ArtistRemoteDatasource,
                            private val artistLocalDataSource: ArtistLocalDataSource,
                            private val artistCacheDataSource: ArtistCacheDataSource
 ):ArtistRepository {

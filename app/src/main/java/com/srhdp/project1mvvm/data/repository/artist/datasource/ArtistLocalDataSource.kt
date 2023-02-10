@@ -1,4 +1,4 @@
-package com.srhdp.project1mvvm.data.repository.aritist.datasource
+package com.srhdp.project1mvvm.data.repository.artist.datasource
 
 import com.srhdp.project1mvvm.data.model.artist.Artist
 

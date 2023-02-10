@@ -1,8 +1,8 @@
-package com.srhdp.project1mvvm.data.repository.aritist.datasource
+package com.srhdp.project1mvvm.data.repository.artist.datasource
 
 import com.srhdp.project1mvvm.data.model.artist.ArtistList
 import retrofit2.Response
 
-interface ArtistRemoteDataSource {
+interface ArtistRemoteDatasource {
     suspend fun getArtists(): Response<ArtistList>
 }

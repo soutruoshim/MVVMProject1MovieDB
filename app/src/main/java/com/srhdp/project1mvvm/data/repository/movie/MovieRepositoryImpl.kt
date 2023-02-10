@@ -6,9 +6,9 @@ import com.srhdp.project1mvvm.data.model.movie.Movie
 import com.srhdp.project1mvvm.data.model.movie.MovieList
 import com.srhdp.project1mvvm.data.repository.movie.datasource.MovieCacheDataSource
 import com.srhdp.project1mvvm.data.repository.movie.datasource.MovieLocalDataSource
-import com.srhdp.project1mvvm.data.repository.movie.datasource.MovieRemoteDataSource
+import com.srhdp.project1mvvm.data.repository.movie.datasource.MovieRemoteDatasource
 
-class MovieRepositoryImpl(private val movieRemoteDataSource: MovieRemoteDataSource,
+class MovieRepositoryImpl(private val movieRemoteDataSource: MovieRemoteDatasource,
                           private val movieLocalDataSource: MovieLocalDataSource,
                           private val movieCacheDataSource: MovieCacheDataSource
 ):MovieRepository {

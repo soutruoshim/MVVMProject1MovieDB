@@ -1,4 +1,4 @@
-package com.srhdp.project1mvvm.data.repository.movie.datasourceimpl
+package com.srhdp.project1mvvm.data.repository.movie.datasourceImpl
 
 import com.srhdp.project1mvvm.data.db.MovieDao
 import com.srhdp.project1mvvm.data.model.movie.Movie

@@ -1,8 +1,8 @@
-package com.srhdp.project1mvvm.data.repository.aritist.datasourceimpl
+package com.srhdp.project1mvvm.data.repository.artist.datasourceImpl
 
 import com.srhdp.project1mvvm.data.db.ArtistDao
 import com.srhdp.project1mvvm.data.model.artist.Artist
-import com.srhdp.project1mvvm.data.repository.aritist.datasource.ArtistLocalDataSource
+import com.srhdp.project1mvvm.data.repository.artist.datasource.ArtistLocalDataSource
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

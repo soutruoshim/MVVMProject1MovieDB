@@ -1,11 +1,11 @@
-package com.srhdp.project1mvvm.data.repository.movie.datasourceimpl
+package com.srhdp.project1mvvm.data.repository.movie.datasourceImpl
 
 import com.srhdp.project1mvvm.data.api.TMDBService
 import com.srhdp.project1mvvm.data.model.movie.MovieList
-import com.srhdp.project1mvvm.data.repository.movie.datasource.MovieRemoteDataSource
+import com.srhdp.project1mvvm.data.repository.movie.datasource.MovieRemoteDatasource
 import retrofit2.Response
 
 class MovieRemoteDataSourceImpl(private val tmdbService: TMDBService, private val apiKey:String):
-    MovieRemoteDataSource {
+    MovieRemoteDatasource {
     override suspend fun getMovies(): Response<MovieList> = tmdbService.getPopularMovies(apiKey)
 }
